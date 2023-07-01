@@ -17,5 +17,16 @@ if (ran_1 == ran_2 == ran_3 == 'y') == True :
 # so this 3rd line runs the code we want as we want it noice,
 # we got em.
 
+
+# chatgpt offered this solution, well this is shorter dang it 
+# the reason it removed the == True is because this statement 
+# already evaluates to boolean so no need for the true assignment
+# so probably the reasin the first one didnt work was becasue
+# the line was evaluating a boolean true to our value y so yeah.
+
+if ran_1 == ran_2 == ran_3 == 'n' :
+    print('yeah they all the same')
+
+
 else :
     print('dang it didnt work')
