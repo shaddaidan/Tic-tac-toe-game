@@ -13,3 +13,6 @@ for k,v in picnic_items['sam'].items():
 print(picnic_items['sam']['spaghetti'] ) 
 
 print( 'sam is really cool' + "\n" + 'yeah he is')
+
+stuff_shaddai_wants = {'macbook' : 1 , 'vans' : 1 , 'suit' : 2 ,
+                       'jacket' : 3 , 'earphone' : 1 , }
