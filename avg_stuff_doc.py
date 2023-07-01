@@ -28,6 +28,36 @@ for i in range(5):
     with open("range5.txt", "a") as file:    # the a mean append and we use it over the w which is write cause the write clears the page each time it writes into it
         file.write(samp)
 
+with open('range5.txt', 'r') as file:
+    a = 0 
+    b = 0 
+    c = 0 
+    d = 0
+    
+    for line in file:
+        
+        if line.strip() == 'a':
+            a = a + 1
+
+        elif line.strip() == 'b':
+            b = b + 1
+
+        elif line.strip() == 'c':
+            c = c + 1
+
+        elif line.strip() == 'd':
+            d = d + 1
+
+print( str(a) + "\n" + str(b) + '\n' + str(c) + '\n' + str(d)   )
+
+var = [a , b , c , d]
+sum = (a + b + c + d)
+
+
+for item in var:
+    print('the percentage of ' + str(item) + ' selected is :' , end = ' ')
+    print(str((item/sum)*100) + '%' )
+
 
 
 
